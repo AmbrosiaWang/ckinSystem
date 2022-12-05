@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Name</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="css/doubleName.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Double Passenger Name</h1>
+        </nav>
+        <div class="user-container">
+            <h3>check in agent: <span id="agent">abc</span> </h3>
+            <button class="logOut"> <a href="index.html">Log Out</a></button>
+        </div>
+        <div class="content">
+            <h3><i class="fa-solid fa-triangle-exclamation"></i> Encounter Double Name Issue, please select the passenger you wish to check in below.....</h3>
+            <table class="table">
+                <tr><th></th><th>Name</th> <th>Flight No.</th> <th>Etkt No.</th></tr>
+                <tr><td class="input"><input type="radio" class="radio-btn" name="radio-btn" value="br30"/></td><td>Kuo/weiwei</td> <td>BR30</td> <td>666168168</td></tr>
+                <tr><td class="input"><input type="radio" class="radio-btn" name="radio-btn" value="br87"/></td><td>Kuo/weiwei</td> <td>BR87</td> <td>666333123</td></tr>
+            </table>
+        </div> 
+
+        <div class="btn">
+            <a href="#" class="search">SELECT</a>
+        </div>
+
+    </div>
+    <script src="js/doubleName.js"></script>
+</body>
+</html>

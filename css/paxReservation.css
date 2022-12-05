@@ -1,0 +1,29 @@
+.content{
+    margin: 2rem 0;
+}
+
+.table {
+    width: 99%;
+    margin: auto;
+    border-collapse:collapse;
+    border: 1px solid rgb(162, 147, 136);
+   
+}
+
+.table th, .table td{
+    text-align: center;
+    border: 2px solid rgb(162, 147, 136);
+}
+
+.table th{
+    font-size: 1.3rem;
+    background-color: rgb(162, 147, 136);
+    padding: .5rem 1.5rem;
+}
+
+.table td{
+   
+    font-size: 1.1rem;
+    padding: 1.4rem 1.5rem;
+    background-color: white;
+}
