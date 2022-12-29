@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baggage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="css/baggage.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Step7 - Baggage</h1>
+        </nav>
+    
+        <div class="content">
+            <div class="bag-container">
+                <h4><i class="fa-solid fa-suitcase-rolling fa-2x"></i> Baggage Info</h4>
+            </div>
+            <div class="bag-info">
+                <div class="item">
+                    <label for="piece">Piece</label>
+                
+                    <input type="text" id="piece" maxlength="2" required pattern="[0-9]*" title="numbers only"/>
+                </div>
+                <div class="item">
+                    <h3>/</h3>
+                    
+                </div>
+                <div class="item">
+                    <label for="kg">KG</label>
+                    <input type="text" id="kg" maxlength="2"  required pattern="[0-9]*"  title="numbers only"/>
+                </div>
+            </div>
+
+               
+            
+        </div> 
+
+        <div class="btn">
+            
+            <a href="#" >PRINT TAGS</a>
+        </div>
+    </div>
+
+        
+    <div class="popup-container hide">
+        <h4>Bag Tags Printing...</h4>
+        <i class="fa-solid fa-spinner fa-4x"></i>
+    </div>
+    
+    <script src="js/baggage.js"></script>
+</body>
+</html>
